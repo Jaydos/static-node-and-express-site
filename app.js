@@ -17,9 +17,9 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-app.get('/project:id', (req, res) => {
-    // Need id of the project to render
-    res.render('projects')
+app.get('/project/:id', (req, res) => {
+
+    res.render('project', {id: parseInt(req.params.id), data: data.projects});
 })
 
 app.listen(3000, () => {
