@@ -2,7 +2,6 @@ const express = require('express');
 const data = require('./data');
 
 const app = express();
-
 // Setup view engine.
 app.set('view engine', 'pug');
 
