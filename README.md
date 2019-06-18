@@ -1,6 +1,4 @@
-# static-node-and-express-site
-Project 6 of the Team Treehouse Full Stack JavaScript Tech Degree.
-Portfolio site to showcase previous projects.
+Demo portfolio site to showcase previous projects.
 
 Styling changes made for the 'Exceeds Expectations' grade are:
 - Scale up project thumbnails on hover.
